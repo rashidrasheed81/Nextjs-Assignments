@@ -78,14 +78,14 @@ export default function Projects() {
   </div>
 
   <div className="bg-white rounded-lg drop-shadow-2xl">
-    <Image className='w-full md:h-48 h-36 object-cover rounded-t-lg' src="/images/proj/tailwindpro.png" alt="panaverse chakra" width={300} height={300}/>
+    <Image className='w-full md:h-48 h-36 object-cover rounded-t-lg' src="/images/proj/resume.png" alt="panaverse chakra" width={300} height={300}/>
     <div>
-      <h2 className='font-semibold text-xl text-center pt-2'>Panaverse Website</h2>
+      <h2 className='font-semibold text-xl text-center pt-2'>My resume Webpage</h2>
       <p className='mt-2 mb-2 text-center font-semibold'>Using Nextjs, Tailwind CSS & Typescript</p>
       <p className='mb-2 text-lg font-bold text-blue-600 text-center'>Have a look </p>
       <div className='flex justify-center'>
       <BiLinkExternal className='hidden md:flex' size={20}/>
-      <p className='px-2 pb-8 text-sm font-bold text-center'><Link href={'https://tailwind-live.vercel.app/'} target='_blank'>https://tailwind-live.vercel.app/</Link></p>
+      <p className='px-2 pb-8 text-sm font-bold text-center'><Link href={'https://myfirstresume.vercel.app/'} target='_blank'>https://myfirstresume.vercel.app/</Link></p>
       </div>      
     </div>
   </div>

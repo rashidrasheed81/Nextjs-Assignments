@@ -35,7 +35,7 @@ export default function Contact() {
         <input placeholder="Where are you from?" type="email" className="p-2 border-solid border-2 outline-none focus:border-orange-400 min-w-0 rounded "/></div>
         <div className="grid grid-rows-2"><label className="font-semibold pb-3">Phone</label>
         <input placeholder="Phone number" type="number" className="p-2 border-solid border-2 outline-none focus:border-orange-400 min-w-0 rounded "/></div>
-        <label for="message" className="font-semibold">Message</label>
+        <label className="font-semibold">Message</label>
         <textarea typeof="2xl" rows={4} placeholder="Write your notes or question here..." className="p-2 md:col-span-2 border-solid border-2 outline-none focus:border-orange-400 rounded"></textarea>
         <div className="md:col-span-2">
             <a href="#">
